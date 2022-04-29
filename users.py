@@ -14,3 +14,5 @@ class User(Base):
     updated_at = Column(
         DateTime, default=datetime.datetime.now, onupdate=datetime.datetime.now
     )
+
+
