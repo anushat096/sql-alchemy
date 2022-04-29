@@ -1,4 +1,5 @@
 import datetime
+from tkinter import N
 from sqlalchemy import Column, DateTime, Integer, String
 
 from base import Base
@@ -16,3 +17,5 @@ class User(Base):
     )
 
 
+
+N
